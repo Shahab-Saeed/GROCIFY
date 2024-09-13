@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+</style>
+
+<body >
+
+   <header class="bg-[url('IMAGES/image.png')] h-screen w-screen bg-cover bg-center">
+    <nav class="flex flex-col justify-center items-center lg:flex lg:justify-around lg:items-center lg:flex-row">
+        <div class="c1"><img src="IMAGES/logo.png" alt="logo" class="h-10 mt-3 lg:h-22"></div>
+        <div class="c2">
+            <ul class="flex gap-3 justify-center items-center mt-4">
+                <li class="list-none"><a href="#" class="text-white text-xl no-underline">Home</a></li>
+                <li class="list-none"><a href="#" class="text-white text-xl no-underline">About Us</a></li>
+                <li class="list-none"><a href="#" class="text-white text-xl no-underline">features</a></li>
+                <li class="list-none"><a href="#" class="text-white text-xl no-underline">Contact</a></li>
+            </ul>
+        </div>
+        <div class="c3"><img src="IMAGES/cart.png" alt="" class="h-10 hidden lg:flex "></div>
+    </nav>
+
+    <section class="mainsection lg:flex lg:justify-center lg:items-center ">
+        <section class="sectiona flex justify-center items-center flex-col lg:pl-48">
+            <div class="c1 text-3xl text-white font-bold mt-9 text-center"><h1>Groceries</h1></div>
+            <div class="c2 text-3xl text-white font-bold mt-2 text-center">delivery in <span class="text-2xl text-white font-semibold">15 mins</span></div>
+            <div class="c3 text-xl text-white font-normal tracking-wide mt-5 text-center lg:w-96">Grocify offers the wide range of produucts, including fresh prooducts, meats, dairy, baked goods and non-perished products</div>
+            <div class="c4 flex gap-2 justify-center items-center mt-5">
+                <div class="c4a border-yellow-300 border-2 bg-yellow-300 rounded-full font-bold text-white hover:bg-transparent text-base px-3 py-2 duration-300 lg:w-28">Order Now</div>
+                <div class="c5 flex gap-1 lg:w-40">
+                    <div class="c5a text-white ">Download App</div>
+                    <div class="c5b"><img src="IMAGES/download-line.png" alt=""></div>
+                </div>
+            </div>
+            
+        </section>
+        <section class="sectionb">
+            <img src="IMAGES/grocery-image.png" alt="">
+        </section>
+    </section>
+   </header>
+
+
+</body>
+
+</html>
